@@ -32,7 +32,7 @@ variable "versioning" {
 }
 variable "acl" {
     type        = string
-    description = " Defaults to private "
+    description = " Access control list for the S3 bucket "
     default     = "private"
 }
 variable "bucket_prefix" {
