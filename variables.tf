@@ -44,8 +44,7 @@ variable "tags" {
     type        = map
     description = "(Optional) A mapping of tags to assign to the bucket."
     default     = {
-        environment = "DEV"
-        Name        = "my-s3-bucket"     
+        environment = "DEV"   
        terraform   = "true"
     }
 }
