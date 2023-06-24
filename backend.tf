@@ -3,6 +3,6 @@ terraform {
     bucket = "toby-terraform-state-bucket"
     key = "main"
     region = "us-east-2"
-    dynamodb_table = "my-dynamo-db-table"
+    dynamodb_table = "my-dynamodb-table"
   }
 }
